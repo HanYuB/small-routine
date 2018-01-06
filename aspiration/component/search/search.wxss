@@ -1,0 +1,27 @@
+.search-wrap {
+  position: relative;
+  padding: 10rpx;
+  width: 100%;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+.search-wrap .search-input{
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 0 10rpx;
+  height: 1.4rem;
+}
+.search-wrap .placeholder-text{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 9;
+  padding: 10rpx;
+  line-height: 1.4rem;
+  color: #ccc;
+  text-align: center;
+  pointer-events: none;
+}

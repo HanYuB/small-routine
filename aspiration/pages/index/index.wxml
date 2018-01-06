@@ -1,5 +1,8 @@
 <!--index.wxml-->
 <view class="container">
+  <view class='search-area'>
+    <search></search>
+  </view>
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
@@ -7,4 +10,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <button size='mini' type='primary' bindtap="getSearch">获取搜索内容</button>
 </view>

@@ -1,0 +1,6 @@
+<view class="search-wrap">
+  <!-- {{innerText}}
+  {{test}} -->
+  <input class='search-input' type='text' confirm-type="search" bindfocus="inputFocus" bindblur="inputBlur" bindinput='inputVlaue' bindconfirm="searchEvent"></input>
+  <text class='placeholder-text' wx:if="{{placeholderShow}}">{{placeholder_text}}{{placeholderShow}}</text>
+</view>
